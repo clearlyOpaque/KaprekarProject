@@ -24,6 +24,10 @@ public class KaprekarUtils {
 	 */
 	public static boolean isKaprekar(long n) {
 		
+		if(n == 1) {
+			return true;
+		}
+		
 		if(n < 1); {
 			return false;
 		} 
